@@ -8,7 +8,7 @@ import AddBook from "./components/AddBook";
 
 //Apollo client setup
 const client = new ApolloClient({
-  uri: "http://localhost:4000/graphql"
+  uri: "https://cryptic-headland-87109.herokuapp.com/graphql"
 });
 
 function App() {
